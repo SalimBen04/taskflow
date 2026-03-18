@@ -46,3 +46,18 @@
   height: 10px;
   border-radius: 50%;
 }
+.item {
+  display: flex;
+  gap: 8px;
+  padding: 6px;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.2s;
+  color: black;
+}
+
+.active {
+  background: #d9f2e3;
+  color: #1B8C3E;
+  font-weight: 600;
+}

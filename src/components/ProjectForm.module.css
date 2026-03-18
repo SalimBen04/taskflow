@@ -1,0 +1,95 @@
+.form {
+  display: grid;
+  gap: 0.75rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  background: white;
+}
+
+.field {
+  display: grid;
+  gap: 0.25rem;
+}
+
+.label {
+  font-size: 0.85rem;
+  color: #444;
+}
+
+.input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.4rem;
+  font-size: 0.95rem;
+}
+
+.color {
+  width: 100%;
+  height: 2.4rem;
+  border: none;
+  padding: 0;
+  background: transparent;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+
+.submit {
+  padding: 0.5rem 0.75rem;
+  border: none;
+  border-radius: 0.4rem;
+  background: #1b8c3e;
+  color: white;
+  cursor: pointer;
+}
+
+.cancel {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 0.4rem;
+  background: white;
+  color: #444;
+  cursor: pointer;
+}
+
+.submit:hover,
+.cancel:hover {
+  opacity: 0.9;
+}
+.form {
+  display: flex;
+  gap: 8px;
+}
+
+.input {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.input:focus {
+  border-color: green;
+}
+
+.colorPicker {
+  width: 40px;
+  height: 36px;
+  border: none;
+}
+
+.submit {
+  background: #1B8C3E;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+}
+
+.cancel {
+  background: #ccc;
+  border: none;
+  padding: 6px 10px;
+}
