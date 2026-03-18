@@ -4,12 +4,13 @@ import axios from 'axios';
 import { useAuth } from '../features/auth/AuthContext';
 import api from '../api/axios';
 
-import Header from '../components/Header';
+import Header from '../components/HeaderMUI';
 import Sidebar from '../components/Sidebar';
 import MainContent from '../components/MainContent';
 import ProjectForm from '../components/ProjectForm';
 
 import styles from './Dashboard.module.css';
+import HeaderMUI from '../components/HeaderMUI';
 
 
 interface Project {
@@ -179,7 +180,7 @@ export default function Dashboard() {
 
     <div className={styles.layout}>
 
-      <Header
+      <HeaderMUI
         title="TaskFlow"
         onMenuClick={() => setSidebarOpen(p => !p)}
         userName={authState.user?.name}
